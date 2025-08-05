@@ -11,7 +11,7 @@ int main(int argc, char* argv[])
 		std::cout << "-f [FilePath|FileName] [From Encoding] [To Encoding]\tConvert input file content\n";
 		std::cout << "-h help\n";
 		std::cout << "Encoding:\n\tUTF-8:\t\t\"UTF-8\"\n\tGBK:\t\t\"GBK\"\n\tBig5:\t\t\"BIG5\"\n\tShift-JIS:\t\"SHIFT-JIS\"\n\tLatin-1:\t\"ISO-8859-1\"";
-		std::cout << "Refer to the documentation of the libiconv library for more encoding\n"
+		std::cout << "Refer to the documentation of the libiconv library for more encoding\n";
 		return 0;
 	}
 	if (argc <= 4) { std::cout << "ERROR:Insufficient Parameters\nUse \"-h\" to get help"; return 0; }
